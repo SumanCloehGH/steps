@@ -14,6 +14,6 @@ jobs:
             - name: Step 3 - Print Date
               run: date
 
-            - name: Step 4 - Show git branch
-              run: git branch
+            # - name: Step 4 - Show git branch
+            #   run: git branch
 
