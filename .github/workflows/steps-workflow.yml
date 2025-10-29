@@ -1,0 +1,19 @@
+name: create multiple steps
+on: push
+jobs:
+    my-job:
+        runs-on: ubuntu-latest
+        
+        steps:
+            - name: Step 1 - Hello
+              run: echo Hello World
+
+            - name: Step 2 - List Files
+              run: ls -la
+              
+            - name: Step 3 - Print Date
+              run: date
+
+            - name: Step 4 - Show git branch
+              run: git branch
+
