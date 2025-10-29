@@ -6,7 +6,7 @@ jobs:
         
         steps:
             - name: Step 1 - Hello
-              run: echo Hello World
+              run: echo "Hello World"
 
             - name: Step 2 - List Files
               run: ls -la
